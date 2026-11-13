@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.Projeto_Movimenta" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#EDF8FA</item>
+    </style>
+
+    <style name="Theme.Projeto_Movimenta.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/movimenta_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Projeto_Movimenta</item>
+    </style>
+</resources>
